@@ -147,3 +147,4 @@ def gerar_certificado(request, id):
     
     messages.add_message(request, constants.SUCCESS, 'Certificados gerado com sucesso')
     return redirect(reverse('certificados_evento', kwargs={'id': evento.id}))
+    
